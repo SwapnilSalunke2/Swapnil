@@ -1,0 +1,61 @@
+IAM:-
+
+Policy
+Create a policy to access all objects in a specific bucket.
+Create a policy to access only 2 objects in a specific bucket.
+Create a policy to deny access to Specific buckets.
+Create a policy to create the user only and can attach a policy to them.
+Create a policy to place the user in a group only.
+Policy to get "read" access of all users, and groups but not policy.
+Policy to get access to billing, ec2, and Cloudwatch.
+How to give access only to northern Virginia.
+
+Add 4 users >> 2 groups (devops & cloud) >> cloud member will access their password will only no & devops group there no will password standards
+>> cloud group SE3 full access % other EC2 full access >> Devops EC2 full access in north virginia.
+Create a policy like when users are logged into the console, Without MFA not a single IAM user is able to access any AWS kind of AWS services, he gots a permission denied error.
+Create a resource-based policy and attach it to the S3_B16 Bucket & only sunny user can able to access that bucket.
+
+
+User:-
+Add four different users to the organization account.
+Add one user without permission.
+Add a user with a console & programmatic user.
+If IAM users are created w/o password, then how can you set the password of that IAM user as an Admin. (W/O deleting user)
+Add User Without Any Permission (permission denied)
+S3 Read-Only Access
+Jarvis Admin Access
+Add User with Programmatic Access
+.
+
+Group:-
+
+S3:-
+Implement MFA on Bucket when users are going to delete any objects, then he needs Approval from MFA Code.
+Create a Bucket with cli commands & upload the object from cli mode.
+Complete one project with server-less static website hosting, with deployment & after-deployment management of the website in the backend side. Make a proper document of that project.
+
+2. Cross-account bucket share —IMP
+3  Create cross-account replication
+4. Create cross-account inventory
+Difference between Block storage & Object Storage?
+Difference between a static website & dynamic website?
+What are the naming rules?
+What is the major resource of S3 Bucket?
+Why do we need to host static websites instead of dynamic websites?
+What is versioning & Why do we need versioning?
+What are the objects and types of objects that we are uploading into the S3 Bucket?
+Why is MFA Delete important in the S3 Bucket object level?
+What is S3 Multipart upload?
+What are the storage classes in Amazon S3 ?   —------------------- IMP
+What is ACL?
+Why do we need ACL?
+What is a Life cycle policy? Why do we need to use the life cycle rule?
+How can we make our bucket public?
+How can we give the public access to our bucket?
+Aws pricing factor of the S3 Service.
+How can we make our object public?
+How can we configure the static website logs in s3?
+What is CORS?
+What is the S3 Inventory?
+What does it mean by Requester pays?
+What is the secondary word to Transfer acceleration? why do we need to use this transfer acceleration?
